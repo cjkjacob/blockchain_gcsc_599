@@ -1,0 +1,66 @@
+# version: '3.8'
+
+services:
+  backend1:
+    build:
+      context: .
+      dockerfile: proof_of_effort/Dockerfile
+    container_name: django_backend_8000
+    volumes:
+      - ./proof_of_effort:/app
+      - static_volume:/app/static
+      - media_volume:/app/media
+    ports:
+      - "8000:8000"
+    env_file:
+      - proof_of_effort/.env
+    command: >
+      sh -c "python manage.py makemigrations &&
+             python manage.py migrate &&
+             python manage.py runserver 0.0.0.0:8000"
+
+  backend2:
+    build:
+      context: .
+      dockerfile: proof_of_effort/Dockerfile
+    container_name: django_backend_8001
+    volumes:
+      - ./proof_of_effort:/app
+      - static_volume:/app/static
+      - media_volume:/app/media
+    ports:
+      - "8001:8000"
+    env_file:
+      - proof_of_effort/.env
+    command: python manage.py runserver 0.0.0.0:8000
+
+  backend3:
+    build:
+      context: .
+      dockerfile: proof_of_effort/Dockerfile
+    container_name: django_backend_8002
+    volumes:
+      - ./proof_of_effort:/app
+      - static_volume:/app/static
+      - media_volume:/app/media
+    ports:
+      - "8002:8000"
+    env_file:
+      - proof_of_effort/.env
+    command: python manage.py runserver 0.0.0.0:8000
+
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+    container_name: vue_frontend
+    ports:
+      - "5173:5173"
+    working_dir: /app
+    stdin_open: true
+    tty: true
+    # command: ["npm", "run", "dev"]
+
+volumes:
+  static_volume:
+  media_volume:

@@ -1,0 +1,269 @@
+[
+  {
+    "index": 0,
+    "timestamp": 1710000000.0,
+    "effort_data": {
+      "user_id": "genesis",
+      "task_id": "genesis_task",
+      "effort_type": "none",
+      "submission": null,
+      "effort_score": 0
+    },
+    "validated_by": "system",
+    "proof": "genesis",
+    "previous_hash": "0",
+    "hash": "7a201e13187eaad71ee5f6e8a93941d7c94790aa8d393a06904934bacdf71572"
+  },
+  {
+    "index": 1,
+    "timestamp": 1742924007.8919163,
+    "effort_data": {
+      "user_id": "student01",
+      "task_id": "intro_python_01",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "https://yourdomain.com/uploads/student01/proj1.pdf",
+        "submitted_at": "2025-03-20T10:00:00Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "user_002",
+    "proof": {
+      "user_signature": "7dee9b8c11f21a945d7e0d9e3c26de90e08850b4535ff9444a9fa1102d337bc547b2eabfa640f12096d3962198f4fff41b8418895f84d05a263a8e372012ea4c",
+      "validator_signature": "f49be6701c300ee1c5a8c41e68e428fbba642139bb4d2ff41616eb5ced23c7a5a4a510e1ba9427e10dfc2cdd823d62710fc6fb1c6272b30206ab802e387c797a"
+    },
+    "previous_hash": "7a201e13187eaad71ee5f6e8a93941d7c94790aa8d393a06904934bacdf71572",
+    "hash": "73d17173576f5dc4928ebd9dce522ff88754c890f6fb2f73bb1ca9abe423dc85"
+  },
+  {
+    "index": 2,
+    "timestamp": 1742924079.2579608,
+    "effort_data": {
+      "user_id": "student01",
+      "task_id": "intro_python_01",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "https://yourdomain.com/uploads/student01/proj1.pdf",
+        "submitted_at": "2025-03-22T10:00:00Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "user_002",
+    "proof": {
+      "user_signature": "1a799b885fbd17882cdd6e6cce17c715886cdd5dddd3d1c96e9e26724dbed9d77cdf8a70289905e572ef754295e1a67223e0a635d6b223302c4212c9eba1341e",
+      "validator_signature": "2a237066ce3d5673e2ca7727edf927a84e949566bdb94be84ec6dd9dcdecf019b01d9a4f2ac6ad5642a05517870cd72ef84dccdd3f8376631992ca60cbc36559"
+    },
+    "previous_hash": "73d17173576f5dc4928ebd9dce522ff88754c890f6fb2f73bb1ca9abe423dc85",
+    "hash": "c2319c6f4720c3c26ade3f7b33efe5235942812f55e20f67f5241cf407e96aad"
+  },
+  {
+    "index": 3,
+    "timestamp": 1742924203.3876958,
+    "effort_data": {
+      "user_id": "student02",
+      "task_id": "intro_python_01",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "https://yourdomain.com/uploads/student01/proj1.pdf",
+        "submitted_at": "2025-03-24T10:00:00Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "user_002",
+    "proof": {
+      "user_signature": "0e8683ee9344d266e5c5e7dae8f916226502e39cc8fb9ff1714c3dbacd627961213b034544699bc63b3e888d84e0d48f348b620d963a214fd13fd5f49b5991e9",
+      "validator_signature": "e6c9910d91a90e42719c684e39b4f8977c6ca727bb997c6ec2289e1900f868402009f64672087928747f1f972169338e28a0fb2a7ed1471b77f1a815fd11570d"
+    },
+    "previous_hash": "c2319c6f4720c3c26ade3f7b33efe5235942812f55e20f67f5241cf407e96aad",
+    "hash": "5e5f24491ad8e9fa517044c706b37ec514aaf50276386bd7dde899dc773ad336"
+  },
+  {
+    "index": 4,
+    "timestamp": 1742964530.8979592,
+    "effort_data": {
+      "user_id": "student02",
+      "task_id": "intro_python_01",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "https://yourdomain.com/uploads/student01/proj1.pdf",
+        "submitted_at": "2025-03-28T10:00:00Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "user_002",
+    "proof": {
+      "user_signature": "336bc6849487020c54e23ab1aef41b87bec9671466cc776047d4b61d461a5630b2db50b947ac2a4bebf8fd295d76b00a34e4b7e4f030cebda1a244389987692a",
+      "validator_signature": "456fc0c88c6ab762427effe5bec63fb46437723270565d3510a44543b2043b77b1be32b3c73899096cada02ac26cbe647d147d8e14db2449180eb8c48c6523dc"
+    },
+    "previous_hash": "5e5f24491ad8e9fa517044c706b37ec514aaf50276386bd7dde899dc773ad336",
+    "hash": "5a3557199a5240e32e0e674f2742c53697e3c1921cb62857ee4e13b3bacae6a6"
+  },
+  {
+    "index": 5,
+    "timestamp": 1743398730.374223,
+    "effort_data": {
+      "user_id": "chrisjacob",
+      "task_id": "intro",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "https://example.com/pdf",
+        "submitted_at": "2025-03-31T05:25:30.331Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "user_002",
+    "proof": {
+      "user_signature": "70fa3caecbc37035d4c3d9d1fc90b4c3ee3fc95dfef6bddd78d2f3026c5e930746519a144c0d5ebbdc261edc24a3e141746646b77911083ca592a2963bf85839",
+      "validator_signature": "b37b9818029979348a83234a7e64be346276d65de0e9846e130b7f88c9899df82929f68247ffb70b400f626d769b01a979d1f4db5584490329d9bc773f929e90"
+    },
+    "previous_hash": "5a3557199a5240e32e0e674f2742c53697e3c1921cb62857ee4e13b3bacae6a6",
+    "hash": "b1158359f820ea2887101f1e5c0d52b8ac986d633dbe3d6b0103358d2d5ad750"
+  },
+  {
+    "index": 6,
+    "timestamp": 1743399422.3374193,
+    "effort_data": {
+      "user_id": "chrisjacob01",
+      "task_id": "intro_to_computing",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "https://example.com/pdf",
+        "submitted_at": "2025-03-31T05:37:02.301Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "user_002",
+    "proof": {
+      "user_signature": "f657596a96a47fb12a8845dad87ac3cd8fe297cdc1d73db9f8ddc086b3396d89093db8243725ed215e52c62ad55534188f5cdd61ff5ce32ba54e5e85e55b8a5c",
+      "validator_signature": "0f845eb79f1a33f816ccc2a86756fa4b420e7eddf2f03dc0e8601b11ea1dd29d634dacc0ccaa89eae4cdcbfeb333c8d51c4a2ef7423554e25896398071cea68e"
+    },
+    "previous_hash": "b1158359f820ea2887101f1e5c0d52b8ac986d633dbe3d6b0103358d2d5ad750",
+    "hash": "d20d9d5b0cd6cb27f11c4ceb33c4ba62333c08b41106cf2aedefd21e12224272"
+  },
+  {
+    "index": 7,
+    "timestamp": 1743536127.7536755,
+    "effort_data": {
+      "user_id": "student02",
+      "task_id": "intro_to_learning",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "https://example.com/pdf",
+        "submitted_at": "2025-04-01T19:35:27.715Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "user_002",
+    "proof": {
+      "user_signature": "08b12094b78e724aba5333e63fdd61f98e0839f56c1ff2e88785cd0f60ef0e403eb2bf6a19b12485564d58838b7b524b3c269545ff5d5d46fae1e16ebcd17343",
+      "validator_signature": "9bc872d04217fa889ceb62c2fd750071f13b9e9c61581edcae492768a622407832003a4e5211a051f64ff736905950d51a145776272c88bb04f903cb7e8925c5"
+    },
+    "previous_hash": "d20d9d5b0cd6cb27f11c4ceb33c4ba62333c08b41106cf2aedefd21e12224272",
+    "hash": "0b4d9b9f7ed1098a38467d26a5af39c8cd2003c6c578c792ac82956cf6690446"
+  },
+  {
+    "index": 8,
+    "timestamp": 1743565958.727699,
+    "effort_data": {
+      "user_id": "student02",
+      "task_id": "intro_to_learning",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "https://example.com/pdf",
+        "submitted_at": "2025-04-02T03:05:49.473Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "user_002",
+    "proof": {
+      "user_signature": "4622305d202a8c7b67aad74f37c524ff1a5198b65d62fe279c37fefabbec97ca7c54e27452e32112a2956a15a9bd4309994bff13ea6a7129896896998a43851c",
+      "validator_signature": "e7b6b49c1e0240f284104545dde7f5d44d710ea689286c0c6c65933ca94f29dd0c518b677f32226d8403d335661309dbfd0fbf75eb6500f3a8e1f406c6b88d3c"
+    },
+    "previous_hash": "0b4d9b9f7ed1098a38467d26a5af39c8cd2003c6c578c792ac82956cf6690446",
+    "hash": "ee4ab26afa953be3a5c2a5a6cfb97bb841705cb7a7d5a8716d39d1a5e7727033"
+  },
+  {
+    "index": 9,
+    "timestamp": 1743997957.5617037,
+    "effort_data": {
+      "user_id": "chrisjacob02",
+      "task_id": "intro_to_learning",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "http://localhost:8000/media/237d15da004da2f19a4770a86216e07d_AFgvbmY.pdf",
+        "submitted_at": "2025-04-07T03:45:35.659Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "validator_01",
+    "proof": {
+      "user_signature": "0f122b3b800d73add780353426447dc3be888dee106070adbcdcbf99a70d6fde18faa4653f80fa0b8718050e0ce602dd9de032e751316d9338a1197b74bc0719",
+      "validator_signature": "1d1129d8fed90c7767233161fb7d020d2323f630656bd683b615f459d673510529c3c9d752b9e449c9a0f5a6007ea459dc09b493453db249dea8f1d4e73805b3"
+    },
+    "previous_hash": "ee4ab26afa953be3a5c2a5a6cfb97bb841705cb7a7d5a8716d39d1a5e7727033",
+    "hash": "f1de01b3eb41d7bbac68153e68e09984014338aaf9a9883cdd10700d3d030173"
+  },
+  {
+    "index": 10,
+    "timestamp": 1744000053.6082683,
+    "effort_data": {
+      "user_id": "chrisjacob02",
+      "task_id": "intro_to_learnign",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "http://localhost:8000/media/WhatsApp%20Image%202025-04-01%20at%2021.31.53_9e2f87f0.jpg",
+        "submitted_at": "2025-04-07T04:27:06.544Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "validator_01",
+    "proof": {
+      "user_signature": "ef0ba68bb808d039e476ca89f31270386a335a21f0bc8758deb9cdba9a8ca80d343584158fe8fcdc76ae4a763e9643fc5f36623f0ae1a8e3ff7793fded6ab8c9",
+      "validator_signature": "7aad75614fe796271735df465c7c22837fefcd6e89587d6a801c52bda1d39a0d063e6b231598123e3b364470504a32c61a53174237859220865ee9488f398f9b"
+    },
+    "previous_hash": "f1de01b3eb41d7bbac68153e68e09984014338aaf9a9883cdd10700d3d030173",
+    "hash": "d4568ec4b6f5564d9c8327c990438712a5fdb7adab84dfd61c2776f8f99a656e"
+  },
+  {
+    "index": 11,
+    "timestamp": 1744000068.394987,
+    "effort_data": {
+      "user_id": "chrisjacob02",
+      "task_id": "intro_to_learning_2",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "http://localhost:8000/media/237d15da004da2f19a4770a86216e07d_VHpBXp3.pdf",
+        "submitted_at": "2025-04-07T04:14:41.115Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "validator_01",
+    "proof": {
+      "user_signature": "d0c862744c8b60527dd9896ec0f932acfc75538a0b070538833d5f2b54a67e012443f1213ef90ec9cbbe69092cae2eb5415ae0781e2ce9a3da3b54a26f716437",
+      "validator_signature": "38d60b962fe34d32f00e46b1c4684286b0b182f8b7f00d85c9aa0ce9563751c12c7a7ee024aad110805e77977d59c9cf2ca56725522845fdd7165d344bf48432"
+    },
+    "previous_hash": "d4568ec4b6f5564d9c8327c990438712a5fdb7adab84dfd61c2776f8f99a656e",
+    "hash": "fcc9f755a03afebac234cae05ab5310a9f6e9c9604b2d7de6494fa6c5b1cab27"
+  },
+  {
+    "index": 12,
+    "timestamp": 1744001275.9465728,
+    "effort_data": {
+      "user_id": "stebintjose",
+      "task_id": "intro_comp",
+      "effort_type": "learning",
+      "submission": {
+        "file_url": "http://localhost:8000/media/237d15da004da2f19a4770a86216e07d_1Z5jy4L.pdf",
+        "submitted_at": "2025-04-07T04:46:53.425Z"
+      },
+      "effort_score": 50
+    },
+    "validated_by": "validator_01",
+    "proof": {
+      "user_signature": "ed053746624b433bcf81f2909cddb593ea4563110efc09702e71e00553f04f9519e54910686a3732dbbd1f9d291188ee62fff09bf74d7b7c1218f020a2ad6ca7",
+      "validator_signature": "88d9f15b37f547b1914f375d6ade71e8c75293544e7a81a0975bb76f8afa75db1c1ea4de777ec262a9f8afdedc71b7e94f12d75106b5ea20af6a3bd6afe7cb7c"
+    },
+    "previous_hash": "fcc9f755a03afebac234cae05ab5310a9f6e9c9604b2d7de6494fa6c5b1cab27",
+    "hash": "96e23043a6d213a8a1bab43f86306b71166fe4b2ff033d0cf4cf26e9b0ec231c"
+  }
+]
